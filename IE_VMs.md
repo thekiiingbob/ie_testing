@@ -7,7 +7,7 @@ As you should be aware, we support multiple versions of Internet Explorer, all t
 
 When we are through you will have a set of VMs that will have a variety of Windows OSs and IEs. These should be used primarily for testing the IE browsers and should be considered disposable (that is, you can wipe the VM and reinstall it as you see fit). There should be no need to remote desktop from these VMs or use SQL Server on them.
 
-If you are looking for a _super easy_ way to install ALL of the VMs, just download VirtualBox and follow the steps in [this](#-super-easy-install-on-maclinux) section.
+If you are looking for a _super easy_ way to install ALL of the VMs, just download VirtualBox and follow the steps in [this](#super-easy-install-on-maclinux) section.
 
 ## Initial Downloads
 First, go to www.virtualbox.org, and click on Downloads on the left. On the downloads page download the VirtualBox platform package for OSX hosts (click the x86/amd64 link to download). Once it downloads, open it up to install VirtualBox on your Mac.
