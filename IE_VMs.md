@@ -59,3 +59,9 @@ That said, you should be able to revert the VM to its 'clean' snapshot to reset 
 - https://github.com/xdissent/ievms
 - http://blog.reybango.com/2013/02/04/making-internet-explorer-testing-easier-with-new-ie-vms/
 - www.virtualbox.org
+
+TEST
+```
+curl 
+www.google.com
+```
