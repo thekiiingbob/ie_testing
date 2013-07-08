@@ -16,7 +16,7 @@ First, go to https://www.virtualbox.org/wiki/Downloads. On the downloads page do
 ### Virtual Machine Images
 Next, go to http://www.modern.ie/en-us/virtualization-tools#downloads and in the first dropdown, select Mac as you desired testing OS. On the second dropdown, select VirtualBox for Mac as your virtualization platform. Multiple boxes should appear below that contain the different OS/IE combinations. You can tell what OS and IE combo the download is by the title in the blue bar (e.g. IE6 - XP, or IE8 - Win7). Some of them will be single downloads (which downloads a .ova file, more on this later), but some are split up into multiple parts.
 
-#### Dealing with mulpiple part downloads
+#### Dealing with multiple part downloads
 You can download each of the parts seperately, or you can use curl (via the command line) to download all of the parts at once. Keep in mind that the image downloads can be a bit large and may take some time depending on your connection.
 
 To use curl
