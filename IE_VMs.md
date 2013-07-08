@@ -45,6 +45,8 @@ Once that is done, run the following command in the terminal to expand the files
 ``` 
 Now, back in VirtualBox, click on File on the Mac's menu bar and select 'Import Appliance'. From here, click 'Open appliance' and choose the .ova file for the VM that you want to install. 
 
+Once that completes, select the VM in VirtualBox and click 'Start' and the VM should start up and be ready for use.
+
 Click Continue, check the 'Reinitialize the MAC address of all network cards' checkbox,  then click Import. VirtualBox will then install the VM. This may take some time.
 
 ## SUPER EASY Install on Mac/Linux
