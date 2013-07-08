@@ -64,8 +64,8 @@ That said, you should be able to revert the VM to its 'clean' snapshot to reset 
 - http://blog.reybango.com/2013/02/04/making-internet-explorer-testing-easier-with-new-ie-vms/
 - www.virtualbox.org
 
-TEST
-```
-curl \
-www.google.com
-```
+## Tips and Tricks
+- If you want to use a higher version of IE on a particular OS (that supports it, of course). You can copy a VM and then upgrade the IE on it to your desired version.
+- The super easy installation automatically creates snapshots of the VM in a 'clean' state. You can revert back to this snapshot at anytime if you mess up the VM somehow. For VMs you add yourself, you will need to create the snapshots yourself.
+- Make sure you enable the shared clipboard on the VM so that you can copy/paste things between your VM and host.
+- Make sure that you increase the RAM used on the VM if you are having performance issues.
