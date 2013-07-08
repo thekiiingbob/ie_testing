@@ -35,7 +35,7 @@ Once you have whichever VMs you want, launch VirtualBox and you should see a scr
 
 <img src="https://raw.github.com/thebobalu/ie_testing/master/vb_pic/vb_initial_screen.png" width="50%" height="50%"/>
 
-## SUPER EASY INSTALL ON MAC/LINUX
+## SUPER EASY Install on Mac/Linux
 Just install [VirtualBox](#virtualbox) (from https://www.virtualbox.org/wiki/Downloads) and run the following command in the terminal:
 ```
 curl -s https://raw.github.com/xdissent/ievms/master/ievms.sh | bash
