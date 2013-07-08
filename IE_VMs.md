@@ -7,7 +7,7 @@ As you should be aware, we support multiple versions of Internet Explorer, all t
 
 When we are through you will have a set of VMs that will have a variety of Windows OSs and IEs. These should be used primarily for testing the IE browsers and should be considered disposable (that is, you can wipe the VM and reinstall it as you see fit). There should be no need to remote desktop from these VMs or use SQL Server on them.
 
-If you are looking for a _super easy_ way to install ALL of the VMs, just download VirtualBox and follow the steps in [this](#super_easy) section.
+If you are looking for a _super easy_ way to install ALL of the VMs, just download VirtualBox and follow the steps in [this](#-super-easy-install-on-maclinux) section.
 
 ## Initial Downloads
 First, go to www.virtualbox.org, and click on Downloads on the left. On the downloads page download the VirtualBox platform package for OSX hosts (click the x86/amd64 link to download). Once it downloads, open it up to install VirtualBox on your Mac.
@@ -33,7 +33,7 @@ Once you have whichever VMs you want, launch VirtualBox and you should see a scr
 
 <img src="https://raw.github.com/thebobalu/ie_testing/master/vb_pic/vb_initial_screen.png" width="50%" height="50%"/>
 
-## <a id="super_easy"/> SUPER EASY INSTALL ON MAC/LINUX
+## SUPER EASY INSTALL ON MAC/LINUX
 Just install VirtualBox and run the following command in the terminal:
 ```
 curl -s https://raw.github.com/xdissent/ievms/master/ievms.sh | bash
