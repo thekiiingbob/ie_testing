@@ -1,0 +1,27 @@
+# Dealing with multiple Internet Explorers
+As you should be aware, we support multiple versions of Internet Explorer, all the way back to IE7 in fact. This can make testing all of these various browsers difficult as you cannot have multiple versions of IE installed on a PC at one time. So what do we do to test these browsers? Fortunatel, Microsoft provides a handful of VMs/Images that contain a variety of Operating Systems and Internet Explorers to run on a few popular VM applications (such as VMWare or VirtualBox). This guide will go over using these images on VirtualBox.
+### Here are some things you will need:
++ Your Mac (or PC, although this guide will be mostly Mac related)
++ An internet connection
++ About an 30 minutes to setup the VM (download of the image may take longer)
+
+## Initial Downloads
+First, go to www.virtualbox.org, and click on Downloads on the left. On the downloads page download the VirtualBox platform package for OSX hosts (click the x86/amd64 link to download). Once it downloads, open it up to install VirtualBox on your Mac.
+
+Next, go to http://www.modern.ie/en-us/virtualization-tools#downloads and in the first dropdown, select Mac as you desired testing OS. On the second dropdown, select VirtualBox for Mac as your virtualization platform. Multiple boxes should appear below that contain the different OS/IE combinations. You can tell what OS and IE combo the download is by the title in the blue bar (e.g. IE6 - XP, or IE8 - Win7). Some of them will be single downloads (which downloads a .ova file, more on this later), but some are split up into multiple parts.
+
+### Dealing with mulpiple part downloads
+You can download each of the parts seperately, or you can use curl (via the command line) to download all of the parts at once. Keep in mind that the image downloads can be a bit large and may take some time depending on your connection.
+
+To use curl
+1. Open up the Mac's terminal/command line (in Spotlight search for "Terminal", it should be the first result)
+2. cd to where you want to download the images (e.g. cd ~/Downloads)
+
+Notes:
++ These VMs will have a time limits on them
+++ IE7 – IE10: 90 days of total time from the moment you first use the VM. Basically it’s 30 days usage with two 30-day rearms.
++++ To rearm, go into a command prompt and type in “slmgr –rearm“
+++ IE6 on WinXP: Will expire 90 days from the time we upload it to modern.IE. There’s no rearm it but we’ll keep this refreshed when the 90 day kill date nears.
+At the end of the 90 days, here’s what will happen:
++++ IE7 – IE10: You’ll be able to use the VM for an hour before it shuts down
++++ IE6/WinXP: You’ll be prompted for an activation key with no way to get past it
