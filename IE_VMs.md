@@ -36,28 +36,24 @@ To use curl
         curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/ \
         IE8_Win7/IE8.Win7.For.MacVirtualBox.part{1.sfx,2.rar,3.rar,4.rar,5.rar,6.rar}"
         ```
-
     - IE9 - Win7
 
         ```
         curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/ \
         IE9_Win7/IE9.Win7.For.MacVirtualBox.part{1.sfx,2.rar,3.rar,4.rar,5.rar}"
         ```
-
     - IE10 - Win7
 
         ```
         curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/ \
         IE10_Win7/IE10.Win7.For.MacVirtualBox.part{1.sfx,2.rar,3.rar,4.rar}"
         ```
-
     - IE10 - Win8
 
         ```   
         curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/ \
         IE10_Win8/IE10.Win8.For.MacVirtualBox.part{1.sfx,2.rar,3.rar}"
         ```
-
       The other 2 images (for Windows XP) are just direct downloads of the .ova file, so no need for curl.
 
     This command will download the individual parts of the VM into your current directory. These commands can also be found on the image download page (http://www.modern.ie/en-us/virtualization-tools#downloads). Just click on the respective "Grab them all with cURL" link to copy/paste the command.
