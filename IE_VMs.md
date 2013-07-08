@@ -17,9 +17,13 @@ To use curl
 
 1. Open up the Mac's terminal/command line (in Spotlight search for "Terminal", it should be the first result)
 2. cd to where you want to download the images (e.g. cd ~/Downloads)
+3. Type the following into the terminal:
+'''bash
+curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/IE7_Vista/IE7.Vista.For.MacVirtualBox.part{1.sfx,2.rar,3.rar,4.rar,5.rar}"
+'''
 
 ## Notes:
-+ These VMs will have a time limits on them
+These VMs will have a time limits on them
   + IE7 – IE10: 90 days of total time from the moment you first use the VM. Basically it’s 30 days usage with two 30-day rearms.
 
    - To rearm, go into a command prompt and type in “slmgr –rearm“
