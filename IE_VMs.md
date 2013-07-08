@@ -22,6 +22,14 @@ To use curl
  curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/
  IE7_Vista/IE7.Vista.For.MacVirtualBox.part{1.sfx,2.rar,3.rar,4.rar,5.rar}"
  ```
+## SUPER EASY INSTALL ON MAC/LINUX
+Just install VirtualBox and run the following command in the terminal:
+```
+curl -s https://raw.github.com/xdissent/ievms/master/ievms.sh | bash
+```
+Once that completes, which will take awhile to download ALL of the images, you will then have IE6, IE7, IE8, IE9, and IE10 running on separate virtual machines. :)
+
+For more info on this process, see https://github.com/xdissent/ievms.
 
 ## Notes:
 These VMs will have a time limits on them
