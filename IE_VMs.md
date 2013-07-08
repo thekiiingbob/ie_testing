@@ -5,6 +5,8 @@ As you should be aware, we support multiple versions of Internet Explorer, all t
 + An internet connection
 + About an 30 minutes to setup the VM (download of the image may take longer)
 
+When we are through you will have a set of VMs that will have a variety of Windows OSs and IEs. These should be used primarily for testing the IE browsers and should be considered disposable (that is, you can wipe the VM and reinstall it as you see fit). There should be no need to remote desktop from these VMs or use SQL Server on them.
+
 ## Initial Downloads
 First, go to www.virtualbox.org, and click on Downloads on the left. On the downloads page download the VirtualBox platform package for OSX hosts (click the x86/amd64 link to download). Once it downloads, open it up to install VirtualBox on your Mac.
 
@@ -37,8 +39,10 @@ For more info on this process, see https://github.com/xdissent/ievms.
 
     - To rearm, go into a command prompt and type in “slmgr –rearm“
 
-+ IE6 on WinXP: Will expire 90 days from the time we upload it to modern.IE. There’s no rearm it but we’ll keep this refreshed when the 90 day kill date nears.
++ IE6 on WinXP: Will expire 90 days from the time we upload it to modern.IE. There’s no rearm it but they’ll keep this refreshed when the 90 day kill date nears.
 
 ### At the end of the 90 days, here’s what will happen:
 - IE7 – IE10: You’ll be able to use the VM for an hour before it shuts down
 - IE6/WinXP: You’ll be prompted for an activation key with no way to get past it
+
+That said, you should be able to revert the VM to its 'clean' snapshot to reset everything. Keep in mind that you will lose any saved files or downloads on that machine (but you should really only be using these VMs for IE testing purposes).
