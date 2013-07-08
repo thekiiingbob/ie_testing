@@ -90,4 +90,5 @@ That said, you should be able to revert the VM to its 'clean' snapshot to reset 
     -Click 'Uninstall'
     -Click 'Restart' to update the VM.
     -Once complete, you should now have IE8.
+
 - Keep in mind that this covers the major versions of IE. There are some sub-minor versions of each browser where, in rare cases, have caused issues. If you need specific build number versions of IE, for example a Beta release,  you may need to dig around. Many can be found [here](http://www.oldapps.com/internet_explorer.php). 
