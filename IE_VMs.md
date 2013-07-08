@@ -26,6 +26,10 @@ To use curl
 
     This command will download IE7 on Vista, as an example. These commands can also be found on the image download page (http://www.modern.ie/en-us/virtualization-tools#downloads). Just click on the respective "Grab them all with cURL" link to copy/paste the command.
 
+## Installing the VMs
+Once you have whichever VMs you want, launch VirtualBox and you should see a screen like (most likely without any VMs installed):
+![alt text](https://github.com/thebobalu/ie_testing/vb_pic/vb_initial_screen.png "VirtualBox")
+
 ## SUPER EASY INSTALL ON MAC/LINUX
 Just install VirtualBox and run the following command in the terminal:
 ```
