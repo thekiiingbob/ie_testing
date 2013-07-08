@@ -29,7 +29,7 @@ To use curl
 ## Installing the VMs
 Once you have whichever VMs you want, launch VirtualBox and you should see a screen like (most likely without any VMs installed):
 
-<img src="https://raw.github.com/thebobalu/ie_testing/master/vb_pic/vb_initial_screen.png" style="width: 30%; height: 30%"/>
+<img src="https://raw.github.com/thebobalu/ie_testing/master/vb_pic/vb_initial_screen.png" width="50%" height="50%"/>
 
 ## SUPER EASY INSTALL ON MAC/LINUX
 Just install VirtualBox and run the following command in the terminal:
