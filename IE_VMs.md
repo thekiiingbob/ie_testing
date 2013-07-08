@@ -83,12 +83,12 @@ That said, you should be able to revert the VM to its 'clean' snapshot to reset 
 - Make sure that you increase the RAM used on the VM if you are having performance issues.
 - If you want to use Windows 7 and IE8 perform the following steps (also found [here](http://answers.microsoft.com/en-us/ie/forum/ie9-windows_7/downgrade-from-ie9-to-ie8-ie9-came-with-the-new/65bb334a-cc68-4940-99f7-6f0bb9376c80).
 
-    -On the VM, go to the Control Panel
-    -Click on 'Uninstall a program'
-    -Click on 'View installed updates'
-    -Click on 'Windows Internet Explorer 9'
-    -Click 'Uninstall'
-    -Click 'Restart' to update the VM.
-    -Once complete, you should now have IE8.
+        -On the VM, go to the Control Panel
+        -Click on 'Uninstall a program'
+        -Click on 'View installed updates'
+        -Click on 'Windows Internet Explorer 9'
+        -Click 'Uninstall'
+        -Click 'Restart' to update the VM.
+        -Once complete, you should now have IE8.
 
 - Keep in mind that this covers the major versions of IE. There are some sub-minor versions of each browser where, in rare cases, have caused issues. If you need specific build number versions of IE, for example a Beta release,  you may need to dig around. Many can be found [here](http://www.oldapps.com/internet_explorer.php). 
