@@ -82,6 +82,7 @@ That said, you should be able to revert the VM to its 'clean' snapshot to reset 
 - Make sure you enable the shared clipboard on the VM so that you can copy/paste things between your VM and host.
 - Make sure that you increase the RAM used on the VM if you are having performance issues.
 - If you want to use Windows 7 and IE8 perform the following steps (also found [here](http://answers.microsoft.com/en-us/ie/forum/ie9-windows_7/downgrade-from-ie9-to-ie8-ie9-came-with-the-new/65bb334a-cc68-4940-99f7-6f0bb9376c80).
+
     -On the VM, go to the Control Panel
     -Click on 'Uninstall a program'
     -Click on 'View installed updates'
