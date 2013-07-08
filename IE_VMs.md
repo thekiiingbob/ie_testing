@@ -58,7 +58,7 @@ Once that completes, which will take awhile to download ALL of the images, you w
 
 For more info on this process, see https://github.com/xdissent/ievms.
 
-## Notes:
+## Notes
 ### These VMs will have a time limits on them
 + IE7 – IE10: 90 days of total time from the moment you first use the VM. Basically it’s 30 days usage with two 30-day rearms.
 
