@@ -33,11 +33,12 @@ For more info on this process, see https://github.com/xdissent/ievms.
 
 ## Notes:
 These VMs will have a time limits on them
-  + IE7 – IE10: 90 days of total time from the moment you first use the VM. Basically it’s 30 days usage with two 30-day rearms.
++ IE7 – IE10: 90 days of total time from the moment you first use the VM. Basically it’s 30 days usage with two 30-day rearms.
 
-     - To rearm, go into a command prompt and type in “slmgr –rearm“
- + IE6 on WinXP: Will expire 90 days from the time we upload it to modern.IE. There’s no rearm it but we’ll keep this refreshed when the 90 day kill date nears.
+- To rearm, go into a command prompt and type in “slmgr –rearm“
+
++ IE6 on WinXP: Will expire 90 days from the time we upload it to modern.IE. There’s no rearm it but we’ll keep this refreshed when the 90 day kill date nears.
 At the end of the 90 days, here’s what will happen:
 
-     - IE7 – IE10: You’ll be able to use the VM for an hour before it shuts down
-     - IE6/WinXP: You’ll be prompted for an activation key with no way to get past it
+- IE7 – IE10: You’ll be able to use the VM for an hour before it shuts down
+- IE6/WinXP: You’ll be prompted for an activation key with no way to get past it
