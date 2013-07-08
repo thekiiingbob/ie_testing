@@ -23,12 +23,26 @@ To use curl
 
 1. Open up the Mac's terminal/command line (in Spotlight search for "Terminal", it should be the first result)
 2. cd to where you want to download the images (e.g. cd ~/Downloads)
-3. Type the following into the terminal:
-
+3. Type the following into the terminal (choose the appropriate one for whichever OS/IE combo you want):
+    - IE7 - Vista
          curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/ \
          IE7_Vista/IE7.Vista.For.MacVirtualBox.part{1.sfx,2.rar,3.rar,4.rar,5.rar}"
+    - IE8 - Win7
+        curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/ \
+        IE8_Win7/IE8.Win7.For.MacVirtualBox.part{1.sfx,2.rar,3.rar,4.rar,5.rar,6.rar}"
+    - IE9 - Win7
+        curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/ \
+        IE9_Win7/IE9.Win7.For.MacVirtualBox.part{1.sfx,2.rar,3.rar,4.rar,5.rar}"
+    - IE10 - Win7
+        curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/ \
+        IE10_Win7/IE10.Win7.For.MacVirtualBox.part{1.sfx,2.rar,3.rar,4.rar}"
+    - IE10 - Win8
+        curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/ \
+        IE10_Win8/IE10.Win8.For.MacVirtualBox.part{1.sfx,2.rar,3.rar}"
 
-    This command will download IE7 on Vista, as an example. These commands can also be found on the image download page (http://www.modern.ie/en-us/virtualization-tools#downloads). Just click on the respective "Grab them all with cURL" link to copy/paste the command.
+      The other 2 images (for Windows XP) are just direct downloads of the .ova file, so no need for curl.
+
+    This command will download the individual parts of the VM into your current directory. These commands can also be found on the image download page (http://www.modern.ie/en-us/virtualization-tools#downloads). Just click on the respective "Grab them all with cURL" link to copy/paste the command.
 
 ## Installing the VMs
 Once you have whichever VMs you want, launch VirtualBox and you should see a screen like (most likely without any VMs installed):
