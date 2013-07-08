@@ -7,14 +7,16 @@ As you should be aware, we support multiple versions of Internet Explorer, all t
 
 When we are through you will have a set of VMs that will have a variety of Windows OSs and IEs. These should be used primarily for testing the IE browsers and should be considered disposable (that is, you can wipe the VM and reinstall it as you see fit). There should be no need to remote desktop from these VMs or use SQL Server on them.
 
-**If you are looking for a _super easy_ way to install ALL of the VMs, just download VirtualBox and follow the steps in [this](#super-easy-install-on-maclinux) section.**
+**If you are looking for a _super easy_ way to install ALL of the VMs, just download [VirtualBox](#virtualbox) and follow the steps in [this](#super-easy-install-on-maclinux) section. I highly recommend this route.**
 
 ## Initial Downloads
-First, go to www.virtualbox.org, and click on Downloads on the left. On the downloads page download the VirtualBox platform package for OSX hosts (click the x86/amd64 link to download). Once it downloads, open it up to install VirtualBox on your Mac.
+### VirtualBox
+First, go to https://www.virtualbox.org/wiki/Downloads. On the downloads page download the VirtualBox platform package for OSX hosts (click the x86/amd64 link to download). Once it downloads, open it up to install VirtualBox on your Mac.
 
+### Virtual Machine Images
 Next, go to http://www.modern.ie/en-us/virtualization-tools#downloads and in the first dropdown, select Mac as you desired testing OS. On the second dropdown, select VirtualBox for Mac as your virtualization platform. Multiple boxes should appear below that contain the different OS/IE combinations. You can tell what OS and IE combo the download is by the title in the blue bar (e.g. IE6 - XP, or IE8 - Win7). Some of them will be single downloads (which downloads a .ova file, more on this later), but some are split up into multiple parts.
 
-### Dealing with mulpiple part downloads
+#### Dealing with mulpiple part downloads
 You can download each of the parts seperately, or you can use curl (via the command line) to download all of the parts at once. Keep in mind that the image downloads can be a bit large and may take some time depending on your connection.
 
 To use curl
@@ -34,7 +36,7 @@ Once you have whichever VMs you want, launch VirtualBox and you should see a scr
 <img src="https://raw.github.com/thebobalu/ie_testing/master/vb_pic/vb_initial_screen.png" width="50%" height="50%"/>
 
 ## SUPER EASY INSTALL ON MAC/LINUX
-Just install VirtualBox and run the following command in the terminal:
+Just install [VirtualBox](#virtualbox) (from https://www.virtualbox.org/wiki/Downloads) and run the following command in the terminal:
 ```
 curl -s https://raw.github.com/xdissent/ievms/master/ievms.sh | bash
 ```
