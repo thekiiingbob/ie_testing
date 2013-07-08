@@ -21,7 +21,7 @@ To use curl
 2. cd to where you want to download the images (e.g. cd ~/Downloads)
 3. Type the following into the terminal:
 
-         curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/
+         curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/ \
          IE7_Vista/IE7.Vista.For.MacVirtualBox.part{1.sfx,2.rar,3.rar,4.rar,5.rar}"
 
     This command will download IE7 on Vista, as an example. These commands can also be found on the image download page (http://www.modern.ie/en-us/virtualization-tools#downloads). Just click on the respective "Grab them all with cURL" link to copy/paste the command.
@@ -62,6 +62,6 @@ That said, you should be able to revert the VM to its 'clean' snapshot to reset 
 
 TEST
 ```
-curl 
+curl \
 www.google.com
 ```
