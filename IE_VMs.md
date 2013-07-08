@@ -1,5 +1,6 @@
 # Dealing with multiple Internet Explorers
-SUPER EASY INSTALL CLICK [HERE](#super-easy-install-on-maclinux)
+**SUPER EASY INSTALL CLICK [HERE](#super-easy-install-on-maclinux)**
+
 As you should be aware, we support multiple versions of Internet Explorer, all the way back to IE7 in fact. This can make testing all of these various browsers difficult as you cannot have multiple versions of IE installed on a PC at one time. So what do we do to test these browsers? Fortunately, Microsoft provides a handful of VMs/Images that contain a variety of Operating Systems and Internet Explorers to run on a few popular VM applications (such as VMWare or VirtualBox). This guide will go over using these images on VirtualBox.
 ### Here are some things you will need:
 + Your Mac (or PC, although this guide will be mostly Mac related)
