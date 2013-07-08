@@ -1,5 +1,5 @@
 # Dealing with multiple Internet Explorers
-As you should be aware, we support multiple versions of Internet Explorer, all the way back to IE7 in fact. This can make testing all of these various browsers difficult as you cannot have multiple versions of IE installed on a PC at one time. So what do we do to test these browsers? Fortunatel, Microsoft provides a handful of VMs/Images that contain a variety of Operating Systems and Internet Explorers to run on a few popular VM applications (such as VMWare or VirtualBox). This guide will go over using these images on VirtualBox.
+As you should be aware, we support multiple versions of Internet Explorer, all the way back to IE7 in fact. This can make testing all of these various browsers difficult as you cannot have multiple versions of IE installed on a PC at one time. So what do we do to test these browsers? Fortunately, Microsoft provides a handful of VMs/Images that contain a variety of Operating Systems and Internet Explorers to run on a few popular VM applications (such as VMWare or VirtualBox). This guide will go over using these images on VirtualBox.
 ### Here are some things you will need:
 + Your Mac (or PC, although this guide will be mostly Mac related)
 + An internet connection
@@ -23,6 +23,8 @@ To use curl
 
          curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/
          IE7_Vista/IE7.Vista.For.MacVirtualBox.part{1.sfx,2.rar,3.rar,4.rar,5.rar}"
+
+    This command will download IE7 on Vista, as an example. These commands can also be found on the image download page (http://www.modern.ie/en-us/virtualization-tools#downloads). Just click on the respective "Grab them all with cURL" link to copy/paste the command.
 
 ## SUPER EASY INSTALL ON MAC/LINUX
 Just install VirtualBox and run the following command in the terminal:
