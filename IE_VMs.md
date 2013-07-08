@@ -81,14 +81,14 @@ That said, you should be able to revert the VM to its 'clean' snapshot to reset 
 - The super easy installation automatically creates snapshots of the VM in a 'clean' state. You can revert back to this snapshot at anytime if you mess up the VM somehow. For VMs you add yourself, you will need to create the snapshots yourself.
 - Make sure you set the shared clipboard to 'bidirectional' on the VM so that you can copy/paste things between your VM and host.
 - Make sure that you increase the RAM used on the VM if you are having performance issues.
-- If you want to use Windows 7 and IE8 perform the following steps (also found [here](http://answers.microsoft.com/en-us/ie/forum/ie9-windows_7/downgrade-from-ie9-to-ie8-ie9-came-with-the-new/65bb334a-cc68-4940-99f7-6f0bb9376c80).
+- If you want to use Windows 7 and IE8 perform the following steps (also found [here](http://answers.microsoft.com/en-us/ie/forum/ie9-windows_7/downgrade-from-ie9-to-ie8-ie9-came-with-the-new/65bb334a-cc68-4940-99f7-6f0bb9376c80)).
 
-    - On the VM, go to the Control Panel
-    - Click on 'Uninstall a program'
-    - Click on 'View installed updates'
-    - Click on 'Windows Internet Explorer 9'
-    - Click 'Uninstall'
-    - Click 'Restart' to update the VM.
-    - Once complete, you should now have IE8.
+    1. On the VM, go to the Control Panel
+    2. Click on 'Uninstall a program'
+    3. Click on 'View installed updates'
+    4. Click on 'Windows Internet Explorer 9'
+    5. Click 'Uninstall'
+    6. Click 'Restart' to update the VM.
+    7. Once complete, you should now have IE8.
 
 - Keep in mind that this covers the major versions of IE. There are some sub-minor versions of each browser where, in rare cases, have caused issues. If you need specific build number versions of IE, for example a Beta release,  you may need to dig around. Many can be found [here](http://www.oldapps.com/internet_explorer.php). 
