@@ -47,7 +47,7 @@ For more info on this process, see https://github.com/xdissent/ievms.
 
 That said, you should be able to revert the VM to its 'clean' snapshot to reset everything. Keep in mind that you will lose any saved files or downloads on that machine (but you should really only be using these VMs for IE testing purposes).
 
-For more information, feel free to visit these resources:
+**For more information, feel free to visit these resources:**
 - www.modern.ie
 - https://github.com/xdissent/ievms
 - http://blog.reybango.com/2013/02/04/making-internet-explorer-testing-easier-with-new-ie-vms/
